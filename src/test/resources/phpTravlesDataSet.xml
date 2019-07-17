@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Fillup Newtours Form with multiple sets of data" >
+<test name="Form fill up with first set of data">
+
+<parameter name="firstName" value="Edgar"/>
+<parameter name="lastName" value="Melgar"/>
+<parameter name="MobileNo" value="5714513348"/>
+<parameter name="email" value="emelgar@gmail.com"/>
+<parameter name="password" value="Pass1234"/>
+<parameter name="confirmPassword" value="Pass1234"/>
+
+<classes>
+<class name="com.phpTravels.signupForm"/>
+</classes>
+</test>
+
+<test name="Form fill up with another set of data">
+
+<parameter name="firstName" value="Someone"/>
+<parameter name="lastName" value="human"/>
+<parameter name="MobileNo" value="500000000"/>
+<parameter name="email" value="shuman@hotmail.com"/>
+<parameter name="password" value="Pass%%1234"/>
+<parameter name="confirmPassword" value="Pass%%1234"/>
+<classes>
+<class name="com.phpTravels.signupForm"/>
+</classes>
+</test>
+
+<test name="Form fill up with third set of data">
+
+<parameter name="firstName" value="Alvarez"/>
+<parameter name="lastName" value="Milan"/>
+<parameter name="MobileNo" value="457812345"/>
+<parameter name="email" value="infotest@gmail.com"/>
+<parameter name="password" value="Hello@9987"/>
+<parameter name="confirmPassword" value="Hello@987"/>
+<classes>
+<class name="com.phpTravels.signupForm"/>
+</classes>
+</test>
+</suite>
